@@ -14,4 +14,5 @@ public class ExponentialClass {
 			throw new IllegalArgumentException("0 to 0th power is illegal");
 		}
 	}
+//naber naptin nasilsin
 }
