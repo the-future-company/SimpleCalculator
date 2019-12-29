@@ -36,7 +36,8 @@ public class CalculatorTool {
 			System.out.println("Result = " + result);
 			break;
 		case 4: //Exponention
-			//TODO (nahid): Implement Exponention
+			result = ExponentialClass.Exp(number1, number2);
+			System.out.println(result);
 			break;
 		default:
 			scan.close();
