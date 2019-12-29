@@ -10,6 +10,11 @@ public class CalculatorTool {
 		System.out.print("Select an operation:\n1)Addition\n2)Subtraction\n3)Multiplication\n4)Exponential\nYour selection: ");
 		int selection = scan.nextInt(); // TODO (nahid): include input validation for selection
 		
+		if(selection<0 || selection>4) {
+			System.out.println("Your selection must be between 1 and 4");
+		}
+		
+		
 		System.out.print("Enter number 1: ");
 		int number1 = scan.nextInt();
 		
