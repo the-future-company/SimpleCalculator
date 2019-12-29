@@ -32,7 +32,8 @@ public class CalculatorTool {
 			System.out.println("Result = " + result);
 			break;
 		case 3: //Multiplication
-			//TODO (ocyy): Implement multiplication
+			result = SimpleMultiplication.Multiply(number1, number2);
+			System.out.println("Result = " + result);
 			break;
 		case 4: //Exponention
 			//TODO (nahid): Implement Exponention
